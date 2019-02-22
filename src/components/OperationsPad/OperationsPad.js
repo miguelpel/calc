@@ -9,6 +9,8 @@ const OperationsPad = (props) => {
         <button onClick={() => props.addChar("*")}>x</button>
         <button onClick={() => props.addChar("-")}>-</button>
         <button onClick={() => props.addChar("+")}>+</button>
+        <button onClick={() => props.addChar("(")}>(</button>
+        <button onClick={() => props.addChar(")")}>)</button>
         <button onClick={() => props.calculate()}>=</button>
       </div>
     );
