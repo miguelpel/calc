@@ -11,7 +11,7 @@ const OperationsPad = (props) => {
         <button onClick={() => props.addChar("+")}>+</button>
         <button onClick={() => props.addChar("(")}>(</button>
         <button onClick={() => props.addChar(")")}>)</button>
-        <button onClick={() => props.calculate()}>=</button>
+        <button className="green" onClick={() => props.calculate()}>=</button>
       </div>
     );
 }

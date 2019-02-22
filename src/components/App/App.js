@@ -37,6 +37,7 @@ class App extends Component {
         <Output output={output} input={input}/>
         <OperationsPad addChar={this.addCharToInput} calculate={this.calculateInput}/>
         <NumbersPad addChar={this.addCharToInput}/>
+        
       </div>
     );
   }
